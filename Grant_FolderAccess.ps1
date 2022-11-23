@@ -16,10 +16,10 @@ Function FnStopPSSession {
 ### EXECUTION
 
 #Prompt for admin credentials
-$AdminCred = Get-Credential -Message "Please provide ADM2 credentials"
+$AdminCred = Get-Credential -Message "Please provide Admin credentials"
 
 
-$Global:DCsession = New-PSSession -ComputerName "csx-dc01.corp.atlasiron.com.au" -Credential $AdminCred
+$Global:DCsession = New-PSSession -ComputerName "Server01" -Credential $AdminCred
 #Start-Sleep -Seconds 2
 
 
