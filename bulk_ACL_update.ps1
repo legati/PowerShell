@@ -1,5 +1,5 @@
-﻿$paths = "C:\ProgramData\Maptek\features\Default.json","C:\ProgramData\Maptek\geotechnical attributes\Default.json", "C:\ProgramData\Maptek\geotechnical attributes\settings.json",
-"C:\ProgramData\Maptek\coordinateSystems.json","C:\ProgramData\Maptek\coordinateSystemTransforms.json"
+﻿$paths = "C:\ProgramData\MT\features\Default.json","C:\ProgramData\MT\geotechnical attributes\Default.json", "C:\ProgramData\MT\geotechnical attributes\settings.json",
+"C:\ProgramData\MT\coordinateSystems.json","C:\ProgramData\MT\coordinateSystemTransforms.json"
 
 ###ACL Object
 $Identity = "BUILTIN\Users"
