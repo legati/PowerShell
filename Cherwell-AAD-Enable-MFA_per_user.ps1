@@ -23,7 +23,7 @@ function FnEnableUserMFA {
 }
 
 #Execution
-$StrUPN = $strUsername + "@atlasiron.com.au"
+$StrUPN = $strUsername + "@corp"
 Write-Host "Username is: $strUPN"
 
 Connect-MsolService
